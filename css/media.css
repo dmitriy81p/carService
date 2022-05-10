@@ -1,0 +1,170 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.top_mnu a {
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 18px;
+    text-indent: 10px;
+}
+.mc_item_wrap, .mc_item_wrap:first-child {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.garanty {
+    font-size: 13px;
+}
+.g_left {
+    font-size: 15px;
+}
+.g_left span {
+    font-size: 24px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.top_line a {
+    font-size: 19px;
+}
+.top_line a:hover{
+	font-size: 19px;
+}
+.top_menu a {
+    background-image: none;
+    padding-left: 18px;
+    text-indent: 0;
+}
+.s_black h2::before, .s_black h2::after, article h2.art_header::before, article h2.art_header::after, article h1::before, article h1::after, .pop_form h3::after, .pop_form h3::before {
+    background-image: none;
+    display: none;
+}
+.top_menu {
+    position: relative;
+}
+.top_menu a{
+    font-size: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.small_mnu {
+    display: inline-block;
+}
+.s_bottom img{
+    display: none;
+}
+.s_bottom{
+    padding-bottom: 10px;
+}
+footer .row > div {
+    margin-bottom: 20px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.taddr_right {
+    float: right;
+}
+.ta_right {
+    margin-top: 20px;
+    text-align: right;
+}
+.top_addr {
+    background-image: none;
+    padding-left: 0;
+    text-align: right;
+}
+.top_line .logo {
+    margin-left: 20px;
+    transform: scale(0.9);
+}
+header.main_header {
+    background-image: url("../img/top_bg2.jpg");
+}
+header.main_header h1 {
+    font-size: 55px;
+    margin-top: 16%;
+}
+.garanty {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+}
+.top_menu ul {
+    display: none;
+}
+.top_menu ul li {
+    background-color: #242424;
+    float: none;
+    position: relative;
+    z-index: 2;
+}
+.small_menu {
+    display: inline-block;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.top_line .logo {
+    margin-left: -40px;
+    margin-top: -35px;
+    transform: scale(0.7);
+}
+.top_line a {
+    font-size: 16px;
+}
+.top_line a:hover {
+    font-size: 16px;
+}
+.ta_right strong {
+    font-size: 25px;
+}
+header.main_header h1 {
+    font-size: 48px;
+}
+.buttons_top .button {
+    background-image: none;
+    padding-left: 20px;
+}
+.buttons_top .button:last-child {
+    margin-right: 0;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+.top_menu ul {
+    display: block !important;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
